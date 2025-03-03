@@ -36,7 +36,7 @@ SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [bt_real_estate.railway.internal]
+ALLOWED_HOSTS = ['btrealestate-production-f266.up.railway.app']
 
 
 # Application definition
