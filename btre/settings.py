@@ -37,6 +37,14 @@ SECRET_KEY = SECRET_KEY
 DEBUG = True
 
 ALLOWED_HOSTS = ['btrealestate-production-f266.up.railway.app', '127.0.0.1', 'localhost']
+#CSRF FOR RAILWAY.APP
+CSRF_TRUSTED_ORIGINS = [
+    'https://btrealestate-production-f266.up.railway.app'
+]
+
+CSRF_COOKIE_SECURE = True 
+SESSION_COOKIE_SECURE = True 
+
 
 
 # Application definition
